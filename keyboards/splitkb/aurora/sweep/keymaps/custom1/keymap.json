@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "notes": "Custom 4-Layer Aurora Sweep Layout with Home Row Mods and German Umlaute",
+  "keyboard": "splitkb/aurora/sweep",
+  "keymap": "custom1",
+  "layout": "LAYOUT",
+  "layers": [
+    [
+      "KC_Q",         "KC_W",         "KC_E",         "KC_R",         "KC_T",    "KC_Y", "KC_U",         "KC_I",         "KC_O",         "KC_P",
+      "LGUI_T(KC_A)", "LALT_T(KC_S)", "LSFT_T(KC_D)", "LCTL_T(KC_F)", "KC_G",    "KC_H", "RCTL_T(KC_J)", "RSFT_T(KC_K)", "RALT_T(KC_L)", "RGUI_T(KC_SCLN)",
+      "KC_Z",         "KC_X",         "KC_C",         "KC_V",         "KC_B",    "KC_N", "KC_M",         "KC_COMM",      "KC_DOT",       "KC_SLSH",
+                                      "LT(3,KC_TAB)", "LT(1,KC_SPC)",            "LT(2,KC_ENT)", "KC_BSPC"
+    ],
+    [
+      "KC_1",    "KC_2",    "KC_3",    "KC_4",    "KC_5",       "KC_6",    "KC_7",    "KC_8",    "KC_9",    "KC_0",
+      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",    "KC_LEFT", "KC_DOWN", "KC_UP",   "KC_RGHT", "KC_BSPC",
+      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",    "KC_HOME", "KC_PGDN", "KC_PGUP", "KC_END",  "KC_DEL",
+                            "KC_TRNS", "KC_TRNS",               "KC_TRNS", "KC_TRNS"
+    ],
+    [
+      "KC_EXLM", "KC_AT",   "KC_HASH", "KC_DLR",  "KC_PERC",    "KC_CIRC",    "RALT(KC_U)", "KC_ASTR",    "RALT(KC_O)", "KC_RPRN",
+      "KC_GRV",  "KC_MINS", "KC_EQL",  "KC_LBRC", "KC_RBRC",    "KC_BSLS",    "RALT(KC_S)", "KC_LPRN",    "KC_RPRN",    "RALT(KC_A)",
+      "KC_TILD", "KC_UNDS", "KC_PLUS", "KC_LCBR", "KC_RCBR",    "KC_PIPE",    "KC_TRNS",    "KC_TRNS",    "KC_TRNS",    "KC_TRNS",
+                            "KC_TRNS", "KC_TRNS",               "KC_TRNS",    "KC_TRNS"
+    ],
+    [
+      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",    "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_SLEP",
+      "KC_TRNS", "KC_MPRV", "KC_MPLY", "KC_MNXT", "KC_TRNS",    "KC_MUTE", "KC_VOLD", "KC_VOLU", "KC_TRNS", "KC_TRNS",
+      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",    "KC_BRID", "KC_BRIU", "KC_TRNS", "KC_TRNS", "KC_WAKE",
+                            "KC_TRNS", "KC_TRNS",               "KC_TRNS", "KC_TRNS"
+    ]
+  ]
+}
